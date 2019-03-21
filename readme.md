@@ -1,5 +1,7 @@
 # Wow Gulp WP Starter
 
+[Details](https://bootstrapstarter.com/bootstrap-templates/wow-gulp-wordpress-starter-theme/)
+
 ![screenshot](screenshot.png)
 
 ## Developers all around the world, automate your WordPress theme development with this starter blank theme: 
@@ -37,6 +39,6 @@ Inspired by Understrap
 
 ### A project by Sal @wowthemes
 
-[Donate](https://www.wowthemes.net/donate)
+[Buy me a coffee](https://www.wowthemes.net/donate)
 
 Thank you!
