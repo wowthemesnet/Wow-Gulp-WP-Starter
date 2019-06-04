@@ -25,6 +25,10 @@ Edit `gulpconfig.json` proxy and project name.
 
 `gulp deploy` - Deploys theme.zip in `dist` folder
 
+### Heads up
+
+`css/theme.min.css` isn't available when first installed so you need to edit a file or run gulp dist to generate it.
+
 ### Credits
 
 Inspired by Understrap
