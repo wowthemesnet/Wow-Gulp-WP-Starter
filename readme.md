@@ -17,17 +17,7 @@
 
 - Run `npm install`
 
-- Open `gulpconfig.json`. Replace `proxy` link and project `name`:
-
-The proxy link will is your usual default local WP  and the project name is the name of your theme (lowercase).
-
-`"proxy": "http://localhost:8888/",`
-
-```"project": {
-    "name": "wowgulpwpstarter",
-    "languagefolder": "./languages"
-  }
-```
+- Open `gulpconfig.json`. Replace `proxy` link (line 3) and project `name` (line 26). The proxy link will be your usual local WP installation and the project name is the name of your theme (lowercase).
 
 ### Generate this first
 
