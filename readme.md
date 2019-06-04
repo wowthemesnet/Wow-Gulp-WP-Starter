@@ -17,9 +17,11 @@
 
 - Run `npm install`
 
-- Open `gulpconfig.json`. Replace `proxy` link (line 3) and project `name` (line 26). The proxy link will be your usual local WP installation and the project name is the name of your theme (lowercase).
+- Open `gulpconfig.json`. 
+    - Replace `proxy` link (line 3) with your usual local WP installation
+    - Replace project `name` (line 26) with the name of your theme (lowercase).
 
-### Generate this first
+### Note
 
 `css/theme.min.css` isn't available when first installed so you need to edit a file or run `gulp deploy` to generate it first. 
 
