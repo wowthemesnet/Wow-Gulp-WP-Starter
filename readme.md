@@ -15,19 +15,31 @@
 
 ### Installation
 
-`npm install`
+- Run `npm install`
 
-Edit `gulpconfig.json` proxy and project name.
+- Open `gulpconfig.json`. Replace `proxy` link and project `name`:
 
-### Tasks
+The proxy link will is your usual default local WP  and the project name is the name of your theme (lowercase).
 
-`gulp watch-bs` - Live browser with watch to develop your theme
+`"proxy": "http://localhost:8888/",`
 
-`gulp deploy` - Deploys theme.zip in `dist` folder
+```"project": {
+    "name": "wowgulpwpstarter",
+    "languagefolder": "./languages"
+  }
+```
 
-### Heads up
+### Generate this first
 
-`css/theme.min.css` isn't available when first installed so you need to edit a file or run gulp dist to generate it.
+`css/theme.min.css` isn't available when first installed so you need to edit a file or run `gulp deploy` to generate it first. 
+
+### Start developing
+
+Run `gulp watch-bs` to open the live browser with *watch*. Now you can edit your theme and watch live changes.
+
+### Production
+
+Run `gulp deploy` to generate theme.zip in `dist` folder. 
 
 ### Credits
 
